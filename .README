@@ -1,0 +1,6 @@
+PHP 7.0
+MySql 5.6
+
+For install application you must create DB name "phaclon" and run migration,
+after that you have to run console command "php app/cli.php parse parseSource "test song" yandex vk"
+for parse several source and "php app/cli.php parse yandex "test song"" for parse Yandex source
